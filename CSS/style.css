@@ -1,0 +1,146 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  font-size: 10px;
+  width: 600px;
+  margin: auto;
+  height: auto;
+  outline-color: #000000;
+  outline-style: solid;
+}
+
+header {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  position: fixed;
+  width: 600px;
+  background-color: black;
+  background-image: url("../images/light.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+nav {
+padding-top: 100px;
+background-color: black;
+width: 600px;
+display: inline-block;
+}
+
+
+h1 {
+  font-weight: bold;
+  font-size: 26px;
+  padding: 10px 15px 0 15px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 20px;
+  padding: 0 15px 0px 15px;
+  margin-top: 5px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 20px;
+}
+
+h5 {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+#content1::after{
+    content: "\a";
+    white-space: pre;
+}
+
+#contentr::after{
+    content: "\a";
+    white-space: pre;
+}
+
+#content1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#content2 {
+  font-weight: lighter;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+#contentr {
+  font-weight: bold;
+  font-size: 9px;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+#contentr2 {
+  font-weight: lighter;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align:right;
+
+}
+
+.content {
+  display: inline-block;
+  width: 85%;
+}
+
+.time {
+  float: right;
+  color: #389a42;
+  padding-top: 10px;
+}
+
+.resume {
+  float: right;
+  color: #6b0086;
+  margin-top: -50px;
+}
+
+.reroute {
+  float: right;
+  color: #e1176c;
+}
+
+.restaurant-list {
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.location {
+  border-bottom: .5px solid #333;
+  padding: 20px;
+  width:100%;
+}
+
+.restaurant-list :hover {
+  background-color: #9F9F9F;
+}
+
+.arrow-left {
+  font-size: 16px;
+  padding-top: 60px;
+}
