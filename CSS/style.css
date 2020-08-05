@@ -22,7 +22,7 @@ header {
   background-image: url("../images/light.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center center;
+  background-position: top center;
 }
 
 nav {
@@ -62,6 +62,7 @@ h5 {
   font-weight:bold;
   font-size: 30px;
   letter-spacing: 2px;
+  position:absolute; left:110px; top:50px;
 }
 
 #content1::after{
@@ -136,11 +137,12 @@ h5 {
   width:100%;
 }
 
-.restaurant-list :hover {
-  background-color: #9F9F9F;
+.bus-list :hover {
+  background-color: #daefda;
 }
 
 .arrow-left {
   font-size: 16px;
-  padding-top: 60px;
+  padding-top: 50px;
+  padding-left: 25px;
 }
